@@ -16,6 +16,16 @@ This is a fork of Caffe that enables training of heatmap regressor ConvNets for 
 
 python/pose/demo.m provides example code for running the FLIC model on a video.
 
+## Paper
+Please cite our [ICCV'15 paper](http://www.robots.ox.ac.uk/~vgg/publications/2015/Pfister15a/pfister15a.pdf) in your publications if this code helps your research:
+
+      @InProceedings{Pfister15a,
+        author       = "Pfister, T. and Charles, J. and Zisserman, A.",
+        title        = "Flowing ConvNets for Human Pose Estimation in Videos",
+        booktitle    = "IEEE International Conference on Computer Vision",
+        year         = "2015",
+      }
+
 
 # Caffe
 
