@@ -1,7 +1,23 @@
-# Caffe
+# Caffe-heatmap-python
 
-[![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)
-[![License](https://img.shields.io/badge/license-BSD-blue.svg)](LICENSE)
+This is a fork of Caffe that enables training of heatmap regressor ConvNets for the general problem of regressing (x,y) positions in images, using the PyCaffe interface with Python3.
+
+
+## Pretrained models
+- [Fusion model trained on FLIC](http://tomas.pfister.fi/models/caffe-heatmap-flic.caffemodel)
+- [Fusion model trained on ChaLearn](http://tomas.pfister.fi/models/caffe-heatmap-chalearn.caffemodel)
+
+## Pre-cropped images and training labels for FLIC
+- [Training](http://tomas.pfister.fi/flic_train_cropped_multfact282.tgz)
+- [Testing](http://tomas.pfister.fi/flic_test_cropped_multfact282.tgz)
+- Note these files require multfact=282 in both training and testing data layers
+
+## Testing instructions
+
+python/pose/demo.m provides example code for running the FLIC model on a video.
+
+
+# Caffe
 
 Caffe is a deep learning framework made with expression, speed, and modularity in mind.
 It is developed by the Berkeley Vision and Learning Center ([BVLC](http://bvlc.eecs.berkeley.edu)) and community contributors.
@@ -35,3 +51,4 @@ Please cite Caffe in your publications if it helps your research:
       Title = {Caffe: Convolutional Architecture for Fast Feature Embedding},
       Year = {2014}
     }
+
