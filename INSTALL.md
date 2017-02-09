@@ -36,6 +36,7 @@ python3-skimage
    
 ### For Ubuntu 16.04:
 https://github.com/BVLC/caffe/wiki/Ubuntu-16.04-or-15.10-Installation-Guide   
+   
 Creating symbolic links where necessary solves most "cannot find -l<nameOfTheLibrary>" issues:   
 https://github.com/BVLC/caffe/issues/4333   
 https://github.com/BVLC/caffe/issues/4045   
